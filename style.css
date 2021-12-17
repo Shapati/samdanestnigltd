@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    position: relative;
+    background: #373c56;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+.na{
+    position: absolute;
+    top: 38px;
+    right: 20px;
+}
+.na li{
+    display: inline;
+    
+}
+.na li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+.na li a:hover{
+    background: white;
+    color: #373c56;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+.menu-bg{
+    display: none;
+}
+.nav{
+    display: none;
+}
+.conatiner{
+    background: red;
+}
+.sam p{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    
+   
+}
+.sam span{
+ color: #6a7edf;
+}
+
+.body span{
+    color: #373c56;
+}
+.body{
+   
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: change 20s infinite ease-in-out;
+    background: rgba(0, 0, 0, 0.7)url('./chicken-on-grass.jpg') center center/cover;
+    
+   background-blend-mode: darken;
+}
+@keyframes change {
+
+    0%{
+        background:  rgba(0, 0, 0, 0.7)url('./pig.png')no-repeat center center/cover;
+        background-blend-mode: darken;
+    }
+    50%{
+        background:  rgba(0, 0, 0, 0.6)url('./chicken-on-grass.jpg') no-repeat center center/cover;
+        background-blend-mode: darken;
+    }
+    100%{
+        background:  rgba(0, 0, 0, 0.7)url('./pig.png')no-repeat center center/cover;
+        background-blend-mode: darken;
+    }
+}
+.body p{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+ 
+    
+}
+.body span{
+    color: #373c56;
+}
+h1{
+    margin: 15px 0px;
+    color: #373c56;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.introduction{
+    margin-bottom: 30px;
+    background-color: white;
+    line-height: 35px;    
+    padding: 100px 10px;
+    
+}
+.introduction h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+}
+.introduction p{
+    font-size: 23px;
+    color: #373c56;
+    text-align: center;
+}
+.section{
+    display: flex;
+   
+       
+}
+.section p{
+    text-align: justify;
+}
+img{
+    width: 50px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.first{
+    padding: 20px;
+    flex: 1;
+    background: #373c56;
+}
+.first p{
+    color: white;
+    font-weight: bolder;
+}
+.first h1{
+ color: white;
+}
+
+.second{
+    padding: 20px;
+    flex: 1;
+    background: rgb(237, 234, 234);
+ 
+}
+.second p{
+    color: #373c56;
+    font-weight: bolder;
+}
+.second h1{
+    font-weight: bolder;
+}
+.third{
+    padding: 20px;
+    flex:  1;
+    background: #373c56;
+}
+
+.third p{
+    color: white;
+    font-weight: bolder;
+}
+.third h1{
+ color: white;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+}
+.number{
+    flex: 1;
+
+}
+.number p{
+    text-align: center;
+
+}
+.socials{
+    flex: 1;
+    background: rgb(186, 182, 182);
+}
+.socials h2{
+    color: #272b42;
+    font-weight: bold;
+}
+.details img{
+  
+    border-radius: 50px;
+    width: 35px;
+    margin: 0;
+    background: #272b42;
+}
+h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.contact h1{
+    color: white;
+}
+.socialflex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact{
+  
+    background:  #272b42;
+}
+.contact h1{
+    text-align: center;
+}
+.contact p{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.workers p{
+    text-align: left;
+    font-size: 23px;
+    color: #373c56;
+    font: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 760px) {
+body{
+    margin:  auto;
+}
+.na{
+    display: none;
+}
+.menu-bg{
+    display: block;
+}
+.sam p{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 1%;
+    right: 0;
+    
+   
+}
+.sam span{
+ color: #6a7edf;
+}
+.navbar{
+    background: #373c56;
+    height: 55px;
+    padding: 15px 0px;
+}
+.sam{
+    background: #373c56;
+}
+.body p{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+ 
+    
+}
+.body span{
+    color: #373c56;
+}
+.body{
+   
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: change 20s infinite ease-in-out;
+    background: rgba(0, 0, 0, 0.65)url('./chicken-on-grass.jpg') center center/cover;
+    
+   background-blend-mode: darken;
+}
+@keyframes change {
+
+    0%{
+        background:  rgba(0, 0, 0, 0.65)url('./pig.png')no-repeat center center/cover;
+        background-blend-mode: darken;
+    }
+    50%{
+        background:  rgba(0, 0, 0, 0.65)url('./chicken-on-grass.jpg') no-repeat center center/cover;
+        background-blend-mode: darken;
+    }
+    100%{
+        background:  rgba(0, 0, 0, 0.65)url('./pig.png')no-repeat center center/cover;
+        background-blend-mode: darken;
+    }
+}
+h1{
+    margin: 15px 0px;
+    color: #373c56;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.section{
+    background: white;
+    display: flex;
+    flex-direction: column;
+  
+}
+.menubar{
+    z-index: 2;
+    position: absolute;
+    top: 1%;
+    left: 0;
+    
+  
+}
+.introduction{
+    margin-bottom: 30px;
+    background-color: white;
+    line-height: 39px;    
+    padding: 100px  10px;
+    
+}
+.introduction h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.introduction p{
+    font-size: 19px;
+    color: #373c56;
+    text-align: center;
+}
+
+
+.menu{
+  
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    background: white;
+    display: block;
+    border-radius: 5px;
+   transition: 0.5s ease;
+    
+}
+
+img{
+    width: 150px;
+   margin-left: 0 ;
+   display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+.para p{
+
+    color: #373c56;
+    font-size: 19px;
+    text-align: justify;
+
+}
+.first{
+    background: #373c56;
+    padding: 15px;
+}
+
+.first p{
+    color: white;
+}
+.first h1{
+ color: white;
+}
+.first img{
+    width: 200px;
+}
+.third{
+    background: #373c56;
+    padding: 15px;
+}
+
+.third p{
+    color: white;
+}
+.third h1{
+ color: white;
+}
+.third img{
+    width: 200px;
+}
+.second{
+    padding: 15px;
+}
+.menu-bg{
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: #272b42;
+    transition: 0.3s ease;
+    
+    border-radius: 50%;
+    transform: translate(-60%,-30%);
+    
+}
+
+.change-bg{
+    width: 300px;
+    height: 600px;
+    z-index: 1;
+    overflow: hidden;
+}
+#bar1{
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+.change .bar{
+    background: white;
+}
+.change #bar1{
+    transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+    transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+    opacity: 0;
+}
+.change{
+    display: block;
+   
+}
+.nav li a:hover{
+    font-weight: bold;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+
+}
+.nav li{
+    list-style: none;
+    padding: 16px 0;
+}
+.nav{
+    padding: 0;
+    margin: 0 10px;
+    transition: 0.5s ease-in;
+    
+}
+ul{ 
+
+  
+    display: none;
+}
+.navbar{
+    width: 100%;
+}
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.socials{
+ padding-bottom: 90px;
+}
+.workers{
+    padding: 0 10px;
+    margin-bottom: 60px;
+}
+.workers p{
+    text-align: left;
+    font-size: 19px;
+    color: #373c56;
+    font-weight: bold;
+}
